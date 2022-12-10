@@ -1,0 +1,98 @@
+<!DOCTYPE html> <!--spécifier la nature du document (html)-->
+    <html lang="fr"><!--définit la langue, ici français-->
+        <head class="head"> <!--début de l'en tête du fichier-->
+            <meta charset="UTF-8"> <!--définit le codage de caractères 150max-->
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="Prises connectées" content="Marque, logo, présentation du produit, caractéristiques, image, avantages, contacts">
+            
+            <link  rel="shortcut icon" href="images/logo-eco-prise-green-energy.png"> <!--Logo de l'onglet--> 
+            <title>Css et Contenants</title> <!--Titre de l'onglet-->
+            <link href="css/style.css" rel="stylesheet"> <!--insertion du fichier style et flex css-->
+        </head> <!--fin de l'entête du fichier-->
+        
+        <body> <!--Corps du fichier-->
+            <main> <!--contenu de page-->
+                <section> <!--début de l'entête de page-->                   
+                    <div class="contener-navbar-librarie">
+                        <img class= "avatar navbar-brand" src="images/iim_250.jpg" alt="logo de l'entreprise">
+                        <h1 class="navbar-titre-librarie">Componants</h1>
+                        <ul class="navbar-list-librarie">
+                            <li class="navbar-element">
+                                <a class= "btn btn-retour" href="index.html">Retour</a>
+                            </li>
+                            <li class= "navbar-avatar">
+                                <img class = "avatar avatar-navbar" src="images/photo-profil.jpg" alt="photo de profil"> <!--Avatar-->
+                            </li>
+                        </ul>
+                    </div>
+                </section> <!--fin de l'entête de page-->
+
+                <section class="btn-green-yellow">
+                    <h2 class="title-librarie">Boutons</h2>
+                    <div class="boutons-librarie">
+                        <a class="btn btn-green" href="#">cliquer</a>
+                        <a class="btn btn-white" href="#">cliquer</a>
+                    </div>
+                    <br>
+                </section>
+
+                <section id="containeur">
+                    <h2 class="title-librarie">Cards</h2>
+                    <div class="librarie-containeur">
+                        <div class="cards-product-normal">
+                            <img class ="cards-product-img" src="images/produit-prise.jpg"/>
+                            <div>
+                            <h3>Lots de 2 prises connectées</h3>
+                            <p>Lot de 2 prises en plastique <strong>IOS et Android</strong> connectées au WiFi, Type E (France), 16A, 3680W.</p>
+                            <p>Commande Vocale, Contrôle à Distance, Compatible avec Alexa, Google Home et SmartThings.</p> 
+                            <p>Manuel d'utilisation, Mesurer la consommation électrique et <strong>Garantie 2 ans</strong>.</p>
+                            </div>
+                        </div>
+
+                        <div class="cards-product-small">
+                            <img class ="cards-product-cactus" src="images/Jouet-en-peluche-de-Cactus-dansant-r-p-tition-de-ce-que-vous-avez-dit-60.jpg_Q90.jpg"/>
+                            <div>
+                            <h3>Cactus chanteur et répèteur</h3>
+                            <p>Ce cactus électrique peut <strong>chanter</strong> une musique prédéfinie.</p>
+                            <p>Il peut aussi <strong>répéter</strong> tout ce que vous lui dites en changeant de mode.</p> 
+                            <p>Manuel d'utilisation, piles électriques et <strong>Garantie 2 ans</strong>.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </section>
+
+                <section id="banner">
+                    <div class="banner">
+                        <h2 class="title-librarie">Banner</h2>
+                        <p class="animation-rgb"> Apparemment, vous pouvez également écrire des choses ici comme : Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>                   
+                    </div>
+                </section>
+
+                <footer> <!--début de le bas de tête du fichier-->
+                    <section id = "footer">
+                        <h2 class="title-librarie">Footer</h2> <!--titre-->
+                        <div class="footer"> <!--container-->
+
+                                <div class="footer-elements"> <!--bloc-->
+                                    <a href="#">1</a> <!--liens clicable-->
+                                    <a href="#">2</a>
+                                    <a href="#">3</a>
+                                    <a href="#">4</a>
+                                    <a href="#">5</a>
+                                </div>
+
+                                <div class="footer-elements"> <!--bloc-->
+                                    <a href="#">A</a> <!--liens clicable-->
+                                    <a href="#">B</a>
+                                    <a href="#">C</a>
+                                    <a href="#">D</a>
+                                    <a href="#">E</a>
+                                </div>
+                          </div>
+                    </section>
+                </footer> <!--fin de le bas de tête du fichier-->
+            </main> <!--fin du contenu de page-->
+        </body> <!--fin du corps de page-->
+    </html>
+<!--FIN-->

@@ -1,0 +1,41 @@
+/****IMPORTATIONS****/
+/****BOOTSTRAP****/
+@import url(../bootstrap-5.2.3-dist.zip);
+
+/*importation des compenants*/
+@import url(pages/3D.css);
+@import url(componants/avatars.css); /*avatars*/
+@import url(componants/banners.css); /*banners*/
+@import url(componants/boutons.css); /*boutons*/
+@import url(componants/cards.css); /*cards*/
+@import url(pages/C&D.css);
+@import url(componants/containers.css); /*conteners*/
+@import url(componants/footer.css); /*footers*/
+@import url(componants/animation.css); /*animation css*/
+@import url(componants/navbar.css); /*nabar*/
+
+/***PAGES***/
+@import url(pages/librarie.css);
+@import url(pages/3D.css);
+@import url(pages/C&D.css);
+/***Couleurs***/
+
+body{
+    background-color: beige;
+    margin: 0px;
+}
+
+footer{
+    background-color: orange;;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title h2{
+    display: flex;
+    justify-content: center;
+    background-color: gold;
+    margin: 10px;
+}

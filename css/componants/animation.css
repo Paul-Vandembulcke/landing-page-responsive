@@ -1,0 +1,107 @@
+/***containeur***/
+.loader{
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh; 
+    background: rgb(224, 186, 58);
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    animation: 10s loader;
+    z-index: -10;
+    opacity: 0%;  
+}
+
+/***Titre***/
+.loader h1{
+    font-size: 5em;
+    color: #444;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+/***BARRE DE CHARGEMENT***/
+.loader span{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #444;
+    border-radius: 20px;
+    animation: 12s linear infinite running loading ;
+    transition: ease-in-out 2s;
+}
+
+/***ANIMATION de la barre***/
+@keyframes loading{
+    from {
+        width: 120px;
+    }
+    90%{
+        width: 90%;
+    }
+    to {
+        width: 200px;
+    }
+}
+
+/***ANIMATION du containeur***/
+@keyframes loader{
+    from {
+        opacity: 100%;
+        z-index: 1000;
+    }
+    80%{
+        opacity: 100%;
+    }
+    99%{
+        z-index: 1000;
+    }
+    to {
+        opacity: 0%;
+        z-index: -10;
+    }
+}
+
+.animation-rgb{
+ width: auto;
+}
+
+.text-light {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-light-rgb),var(--bs-text-opacity))!important;
+}
+.spinner-border {
+    --bs-spinner-width: 2rem;
+    --bs-spinner-height: 2rem;
+    --bs-spinner-border-width: 0.25em;
+    --bs-spinner-animation-speed: 0.75s;
+    --bs-spinner-animation-name: spinner-border;
+    border: var(--bs-spinner-border-width) solid currentcolor;
+    border-right-color: transparent;
+}
+.spinner-border, .spinner-grow {
+    width: var(--bs-spinner-width);
+    height: var(--bs-spinner-height);
+    border-radius: 50%;
+    animation: var(--bs-spinner-animation-speed) linear infinite var(--bs-spinner-animation-name);
+}
+
+@keyframes spinner-border{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: reduce){
+    .spinner-border, .spinner-grow {
+        --bs-spinner-animation-speed: 1.7s;
+    }
+}

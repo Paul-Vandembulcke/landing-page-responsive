@@ -1,0 +1,25 @@
+
+.banner{
+    background-image: url(../../images/Nitro_Wallpaper_5000x2813.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    width: 100%;
+    padding: 150px 0;
+}
+
+.banner h1 {
+    margin: 0 10% 5px 10%;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .banner p {
+    text-align: center;
+    margin: 5px 10% 0px 10%;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+  }

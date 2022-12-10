@@ -1,0 +1,27 @@
+/***INDEX***/
+.menu{
+  position: sticky;
+  top: 0px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.contener-navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: wheat;
+}
+
+.navbar-list{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  list-style: none;
+  margin-right: 5px;
+}
+
+.navbar-titre{
+  margin-left: 200px;
+}

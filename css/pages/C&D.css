@@ -1,0 +1,23 @@
+.CD-containeur {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    margin: 10px;
+}
+
+.CD-containeur div img {
+    width: 35%;
+    object-fit: cover;
+
+}
+
+@media (max-width : 900px) {
+    .CD-containeur{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .CD-containeur div img {
+        width: 80%;
+    }
+  }
